@@ -1,0 +1,29 @@
+generated: '2026-07-18'
+method: searched
+source: https://support.cybersmart.co.uk/knowledgebase/s/article/Ticketing-API-Explained
+docs: https://support.cybersmart.co.uk/knowledgebase/s/article/Ticketing-API-Explained
+summary:
+  types:
+  - oauth2
+  oauth2_flows:
+  - clientCredentials
+  api_key_in: []
+schemes:
+- name: OAuth2 Partner Credentials
+  type: oauth2
+  flow: clientCredentials
+  description: >-
+    The CyberSmart Ticketing API authenticates with OAuth2 credentials (client
+    ID and client secret) issued at the partner level. A single credential set
+    covers all of a partner's managed organisations. Credentials are retrieved
+    from the CyberSmart partner portal under Settings > CyberSmart API.
+  credential_scope: partner-level (covers all managed organisations)
+  availability: All CyberSmart Partners regardless of tier; not available to direct customers
+  sources:
+  - https://support.cybersmart.co.uk/knowledgebase/s/article/Ticketing-API-Explained
+  - https://knowledge.adoptech.co.uk/how-do-i-set-up-my-cybersmart-integration-0
+notes: >-
+  No public OpenAPI/Swagger specification is published for the Ticketing API, so
+  this profile is sourced from CyberSmart partner documentation and a partner
+  integration guide rather than derived from a spec. No token or authorization
+  endpoint URLs are documented publicly.
