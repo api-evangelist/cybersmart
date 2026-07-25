@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://cybersmart.co.uk/security/, https://security.cybersmart.com
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: independently certified to ISO/IEC 27001 with a full ISMS across all 14 domains
+- id: cyber-essentials
+  conforms: true
+  evidence: holds Cyber Essentials certification (also a certifying body for the scheme)
+- id: cyber-essentials-plus
+  conforms: true
+  evidence: holds Cyber Essentials Plus certification
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliance program listed on SafeBase trust center; UK/EU data residency
+- id: fips-140-2
+  conforms: true
+  evidence: FIPS 140-2 certified Hardware Security Module used for code signing
+- id: oauth2
+  conforms: true
+  evidence: Ticketing API authenticates with OAuth2 client credentials issued at partner level
+- id: soc2
+  conforms: false
+  evidence: no SOC 2 report published on the trust center

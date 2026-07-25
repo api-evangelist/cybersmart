@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://security.cybersmart.com
+url: https://security.cybersmart.com
+platform: SafeBase
+certifications:
+- Cyber Essentials
+- Cyber Essentials Plus
+- ISO/IEC 27001
+- GDPR
+documents:
+- Team certificates
+- Network diagram
+- Access Control Policy
+- Business Continuity / Disaster Recovery Policy
+- Data Classification Policy
+- Data Security Policy
+security_contact: security@cybersmart.co.uk
+notes: >-
+  SafeBase-powered trust center. Also references a dedicated security page at
+  https://cybersmart.co.uk/security/ documenting ISO 27001 controls across all
+  14 domains, annual third-party penetration testing (web/desktop/mobile), a
+  FIPS 140-2 certified HSM for code signing, AES-256 encryption at rest, and TLS
+  in transit. Qualys SSL Labs A+ for cybersmart.com and cybersmart.co.uk; on the
+  HSTS preload list.
+evidence:
+- source: https://security.cybersmart.com
+  keywords:
+  - cyber essentials
+  - iso/iec 27001
+  - gdpr
+  - trust center
+  - safebase
+- source: https://cybersmart.co.uk/security/
+  keywords:
+  - iso 27001
+  - penetration testing
+  - fips 140-2

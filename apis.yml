@@ -1,7 +1,17 @@
 aid: cybersmart
 name: CyberSmart
-description: CyberSmart is a company surfaced as a portfolio company of seedcamp and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CyberSmart is a UK-based cybersecurity platform for SMEs and the managed
+  service providers (MSPs) that serve them, backed by Seedcamp. It automates
+  security certification and continuous compliance — including government-backed
+  Cyber Essentials, Cyber Essentials Plus, IASME and GDPR readiness — alongside
+  device-level security monitoring, patch management, policy management, security
+  awareness training, and cyber insurance. Partners integrate CyberSmart through
+  its OAuth2-authenticated Ticketing API, which exposes certifications and
+  desktop security controls so MSPs can automate workflows and sync device
+  security and compliance data into their own systems. The company operates a
+  four-tier partner program (Registered, Growth, Advanced, Strategic) and is
+  independently certified to ISO/IEC 27001.
 url: https://raw.githubusercontent.com/api-evangelist/cybersmart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +19,53 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://cybersmart.co.uk/wp-content/uploads/2026/05/cropped-favicon-512x512-1-192x192.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Cybersecurity
+- Compliance
+- Cyber Essentials
+- Security Certification
+- MSP
+- Device Security
+- GDPR
+- SME
+apis:
+- name: CyberSmart Ticketing API
+  description: >-
+    Partner-facing REST API that provides full access to certifications and
+    desktop security controls, allowing MSP partners to automate security
+    workflows, integrate with other systems, and sync device security and
+    compliance data. Authenticated with OAuth2 credentials issued at the partner
+    level (one credential set covers all managed organisations). Available to all
+    CyberSmart Partners regardless of tier; not currently available to direct
+    customers.
+  humanURL: https://cybersmart.co.uk/2025/02/new-feature-cybersmart-ticketing-api/
+  tags:
+  - Ticketing
+  - Certification
+  - Compliance
+  - Security
+  properties:
+  - type: Documentation
+    url: https://support.cybersmart.co.uk/knowledgebase/s/article/Ticketing-API-Explained
+  - type: Authentication
+    url: authentication/cybersmart-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -22,4 +73,45 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://cybersmart.co.uk
+  url: https://cybersmart.co.uk
+- type: DeveloperPortal
+  url: https://support.cybersmart.co.uk/knowledgebase
+- type: Documentation
+  url: https://support.cybersmart.co.uk/knowledgebase/s/article/Ticketing-API-Explained
+- type: Support
+  url: https://support.cybersmart.co.uk
+- type: Blog
+  url: https://cybersmart.co.uk/blog/
+- type: Pricing
+  url: https://cybersmart.co.uk/plans/
+- type: SignUp
+  url: https://cybersmart.co.uk/partners/partner-with-cybersmart/
+- type: PrivacyPolicy
+  url: https://cybersmart.co.uk/privacy-policy/
+- type: TermsOfService
+  url: https://cybersmart.co.uk/terms/
+- type: StatusPage
+  url: https://status.cybersmart.co.uk
+- type: Lifecycle
+  url: lifecycle/cybersmart-lifecycle.yml
+- type: Authentication
+  url: authentication/cybersmart-authentication.yml
+- type: Conformance
+  url: conformance/cybersmart-conformance.yml
+- type: Compliance
+  url: https://security.cybersmart.com
+- type: TrustCenter
+  url: security/cybersmart-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/cybersmart-vulnerability-disclosure.yml
+- type: Security
+  url: security/cybersmart-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/cybersmart-domain-security.yml
+- type: LLMsTxt
+  url: llms/cybersmart-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

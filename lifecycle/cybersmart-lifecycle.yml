@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.cybersmart.co.uk, https://cybersmart.co.uk/security/
+status_page: https://status.cybersmart.co.uk
+status_platform: Atlassian Statuspage
+status_components:
+- CyberSmart Platform
+- CyberSmart Apps
+- CyberSmart Dashboard
+upstream_dependencies:
+- SendGrid API v3
+- AWS s3-eu-west-2
+- Cloudflare (London, UK)
+sla:
+  url: null
+  notes: A Partner SLA is referenced on the security page but its terms are partner-gated (no public URL verified)
+availability:
+  architecture: High Availability across multiple UK/Ireland and EU data centres
+deprecation: null
+versioning: null
+notes: >-
+  Public status page (All Systems Operational at last check; ~99.99% 90-day
+  uptime on the Platform component). No public API versioning or deprecation
+  policy is documented — the Ticketing API is partner-gated and in an initial
+  release phase with further enhancements planned.
