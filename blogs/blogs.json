@@ -9,13 +9,13 @@
       "method": "none"
     },
     {
-      "source": "https://support.cybersmart.co.uk",
+      "source": "https://support.cybersmart.co.uk/feed.xml",
       "feed_url": "https://support.cybersmart.co.uk/feed.xml",
       "title": "",
-      "saved": 1,
-      "method": "discovered"
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "post_count": 1,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 25,
+  "fetched": "2026-10-17T14:53:57Z"
 }
